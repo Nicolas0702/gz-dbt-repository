@@ -1,0 +1,9 @@
+sources:
+  - name: raw  
+    tables:
+      - name: sales
+        alias: raw_gz_sales
+      - name: product
+        alias: raw_gz_product
+      - name: ship
+        alias: raw_gz_ship
