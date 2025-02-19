@@ -11,6 +11,7 @@ SELECT
   LEFT JOIN {{ref("stg_raw__product")}} p
       USING (products_id);
 
+
 SELECT
      orders_id,
      date_date,
@@ -22,6 +23,7 @@ SELECT
  GROUP BY orders_id,date_date
  ORDER BY orders_id DESC;
 
+  
   SELECT
      o.orders_id
      ,o.date_date
